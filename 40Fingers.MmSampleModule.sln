@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40Fingers.MmSampleModule", "40Fingers.MmSampleModule.csproj", "{2E88F654-FA5C-446C-A3C4-F87576591252}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40Fingers.DnnMassManipulate", "..\40Fingers.DnnMassManipulate\40Fingers.DnnMassManipulate.csproj", "{372A7AF3-DD49-485C-837C-D479D786FB19}"
+EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-		Svn-Managed = True
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -17,8 +17,19 @@ Global
 		{2E88F654-FA5C-446C-A3C4-F87576591252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E88F654-FA5C-446C-A3C4-F87576591252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E88F654-FA5C-446C-A3C4-F87576591252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372A7AF3-DD49-485C-837C-D479D786FB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372A7AF3-DD49-485C-837C-D479D786FB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372A7AF3-DD49-485C-837C-D479D786FB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372A7AF3-DD49-485C-837C-D479D786FB19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {937819CB-21C9-4B31-911F-77ABA02FD280}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+		Svn-Managed = True
 	EndGlobalSection
 EndGlobal
