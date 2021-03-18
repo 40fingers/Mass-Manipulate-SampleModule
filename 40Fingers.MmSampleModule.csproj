@@ -114,14 +114,6 @@
     <Content Include="_external\DotNetNuke.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_LocalResources\View.ascx.resx">
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_LocalResources\Edit.ascx.resx">
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="40Fingers.MmSampleModule.dnn" />
     <Content Include="msbuild\build.bat" />
     <Content Include="ManipulatorModules\Sample\Sample.cshtml" />

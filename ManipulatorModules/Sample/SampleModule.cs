@@ -14,7 +14,7 @@ namespace FortyFingers.DnnMassManipulate.ManipulatorModules.Sample
 {
     public class SampleModule : ManipulatorModuleBase
     {
-        private readonly string ScriptsPath = $"~/DesktopModules/40Fingers/DnnMassManipulate/ManipulatorModules/Sample/";
+        private readonly string ScriptsPath = $"~/DesktopModules/40Fingers/MmSampleModule/ManipulatorModules/Sample/";
 
         /// <summary>
         /// Return the name of the tab in MassManipulator
